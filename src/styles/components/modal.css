@@ -1,0 +1,25 @@
+/* Modal component */
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none; /* hidden by default */
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+}
+
+.modal--active {
+  display: flex;
+}
+
+.modal__content {
+  background: var(--c-midnight-navy);
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-glow);
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow: auto;
+}

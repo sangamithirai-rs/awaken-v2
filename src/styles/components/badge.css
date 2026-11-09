@@ -1,0 +1,15 @@
+/* Badge component */
+.badge {
+  display: inline-block;
+  padding: var(--space-xxs) var(--space-xs);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  background: var(--c-arcane-violet);
+  color: var(--c-pure-white);
+}
+
+.badge--gold {
+  background: var(--c-ancient-gold);
+  color: var(--c-abyss-black);
+}

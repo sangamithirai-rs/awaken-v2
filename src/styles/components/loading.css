@@ -1,0 +1,14 @@
+/* Loading spinner */
+.loading {
+  display: inline-block;
+  width: var(--space-lg);
+  height: var(--space-lg);
+  border: 3px solid var(--c-mystic-cyan);
+  border-top-color: var(--c-electric-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
