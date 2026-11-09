@@ -1,0 +1,33 @@
+/* Button component */
+.btn {
+  display inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-sm) var(--space-md);
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--c-electric-blue);
+  color: var(--c-pure-white);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  box-shadow: var(--shadow-glow);
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background: var(--c-arcane-violet);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn--secondary {
+  background: var(--c-midnight-navy);
+}
+
+.btn--gold {
+  background: var(--c-ancient-gold);
+  color: var(--c-abyss-black);
+}

@@ -1,0 +1,15 @@
+/* Holographic panel */
+.panel {
+  background: rgba(8, 11, 18, 0.85); /* Abyss black with transparency */
+  border: 1px solid var(--c-mystic-cyan);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-glow);
+  backdrop-filter: blur(8px);
+  color: var(--c-pure-white);
+}
+
+.panel--glow {
+  border-color: var(--c-electric-blue);
+  box-shadow: 0 0 12px var(--c-electric-blue), var(--shadow-glow);
+}
